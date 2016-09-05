@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true" crossContext="true">
+<Resource name="jdbc/OtaDB" type="javax.sql.DataSource"
+		password="Vr_654321" driverClassName="com.mysql.jdbc.Driver" maxIdle="10"
+		maxWait="50" username="root"
+		url="jdbc:mysql://127.0.0.1:3306/otaku?autoReconnect=true"
+		maxActive="20" />
+		</Context>
